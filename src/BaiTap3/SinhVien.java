@@ -11,11 +11,11 @@ import java.util.Date;
  * @author ltpnt
  */
 public class SinhVien {
-    private String Hoten;
+    private String hoTen;
     private String ngaySinh;
     private float diemTB;
     public SinhVien(String Hoten, String ngaySinh, float diemTB) {        
-        this.Hoten = Hoten;       
+        this.hoTen = hoTen;       
         this.ngaySinh = ngaySinh;
         this.diemTB = diemTB;
     }
@@ -24,7 +24,7 @@ public class SinhVien {
     }
     
     public String getTen() {
-        return Hoten;
+        return hoTen;
     }
 
     public float getDiemTB() {
@@ -32,6 +32,6 @@ public class SinhVien {
     }
     
     public String inTT() {
-        return "Họ và Tên:"+Hoten+"\n"+"Ngày sinh:"+ngaySinh+"\n"+"Điểm Trung Bình:"+diemTB;
+        return "Họ và Tên:"+hoTen+"\n"+"Ngày sinh:"+ngaySinh+"\n"+"Điểm Trung Bình:"+diemTB;
     }
 }
