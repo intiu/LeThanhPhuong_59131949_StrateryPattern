@@ -12,13 +12,13 @@ package BaiTap3;
 public class SoSanhTheoDiem implements ISoSanh<SinhVien>{
     @Override
     public int soSanh(SinhVien o1, SinhVien o2) {
-        if(o1.getDiemTB()> o2.getDiemTB()) {
+        if(o1.getdiemTB()> o2.getdiemTB()) {
             return 1;
         }
-        else if(o1.getDiemTB() == o2.getDiemTB()) {
+        else if(o1.getdiemTB() == o2.getdiemTB()) {
             return 0;
         }
-        else if(o1.getDiemTB() < o2.getDiemTB()){
+        else if(o1.getdiemTB() < o2.getdiemTB()){
             return -1;
         }
         return 0;

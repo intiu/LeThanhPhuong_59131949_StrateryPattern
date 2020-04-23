@@ -12,6 +12,6 @@ package BaiTap3;
 public class SoSanhTheoTen implements ISoSanh<SinhVien>{
     @Override
     public int soSanh(SinhVien o1, SinhVien o2) {
-        return o2.getTen().compareTo(o1.getTen());
+        return o2.gethoTen().compareTo(o1.gethoTen());
     }
 }
